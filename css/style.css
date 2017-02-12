@@ -323,12 +323,12 @@ a
 
     border-radius: 100%;
     background: rgba(255, 255, 255, .2) url(../img/sprite.png) no-repeat;
-    background-position: -2px 7px;
+    background-position: -16px 7px;
 }
 .search:hover
 {
     background: #f8f7f4 url(../img/sprite.png) no-repeat;
-    background-position: -2px -41px;
+    background-position: -16px -41px;
 }
 .header-area-search:hover .form-search
 {
@@ -378,19 +378,20 @@ a
 
     border-radius: 15px;
     background: rgba(255, 255, 255, .2) url(../img/sprite.png) no-repeat;
-    background-position: 11px -90px;
+    background-position: -4px -90px;
 }
 .login:hover
 {
     color: #000;
     background: #f7f6f3 url(../img/sprite.png) no-repeat;
-    background-position: 12px -140px;
+    background-position: -4px -140px;
 }
 .header-area-basket
 {
     position: relative;
 
     display: inline-block;
+
     padding-bottom: 5px;
 
     vertical-align: top;
@@ -415,7 +416,7 @@ a
 
     border-radius: 15px;
     background: rgba(255, 255, 255, .2) url(../img/sprite.png) no-repeat;
-    background-position: 10px -190px;
+    background-position: -4px -190px;
 }
 .inner-page .basket
 {
@@ -426,13 +427,13 @@ a
 
     color: #313131;
     background: #f7f6f3 url(../img/sprite.png) no-repeat;
-    background-position: 10px -265px;
+    background-position: -4px -265px;
 }
 .basket:hover
 {
     color: #000;
     background: #f7f6f3 url(../img/sprite.png) no-repeat;
-    background-position: 10px -265px;
+    background-position: -4px -265px;
 }
 .header-area-basket:hover .products-basket
 {
@@ -444,6 +445,7 @@ a
     z-index: 10000;
     top: 35px;
     right: 0;
+
     display: none;
 
     width: 540px;
@@ -806,29 +808,35 @@ body > input[type='radio']
     font-weight: 700;
 
     position: absolute;
-    bottom: 19px;
+    bottom: 25px;
     left: 0;
 
     color: #fff;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
-.ruble
+.small
 {
+    font-size: 30px;
+
+    position: relative;
+
+    padding-left: 35px;
+}
+.small::before
+{
+    position: absolute;
+    top: -2px;
+    left: 0;
+
     display: inline-block;
 
     width: 31px;
     height: 36px;
 
-    vertical-align: middle;
+    content: '';
 
     background: url(../img/sprite.png) no-repeat;
-    background-position: 1px -225px;
-}
-.small
-{
-    font-size: 30px;
-
-    margin-left: 5px;
+    background-position: -13px -225px;
 }
 .catalog-preview-hit:before
 {
@@ -842,7 +850,8 @@ body > input[type='radio']
 
     content: '';
 
-    background: url(../img/hit.png) no-repeat top left;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: 0 -819px;
 }
 .catalog-product .btn
 {
@@ -967,7 +976,8 @@ body > input[type='radio']
 
     content: '';
 
-    background: url(../img/icon-ice-cream.png) no-repeat;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -7px -970px;
 }
 .icon-cow:before
 {
@@ -980,7 +990,8 @@ body > input[type='radio']
 
     content: '';
 
-    background: url(../img/icon-cow.png) no-repeat;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -7px -900px;
 }
 .icon-foliage:before
 {
@@ -993,7 +1004,8 @@ body > input[type='radio']
 
     content: '';
 
-    background: url(../img/icon-leaf.png) no-repeat;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -6px -1053px;
 }
 .icon-thermometer:before
 {
@@ -1006,7 +1018,8 @@ body > input[type='radio']
 
     content: '';
 
-    background: url(../img/icon-temperatyre.png) no-repeat;
+    background: url(../img/sprite.png) no-repeat;
+    background-position: -6px -1136px;
 }
 .news-block
 {
@@ -1253,19 +1266,19 @@ body > input[type='radio']
 }
 .social-btn-twitter
 {
-    background-position: -1px -461px;
+    background-position: -16px -461px;
 }
 .social-btn-instagram
 {
-    background-position: -1px -536px;
+    background-position: -15px -536px;
 }
 .social-btn-facebook
 {
-    background-position: -1px -620px;
+    background-position: -15px -620px;
 }
 .social-btn-vk
 {
-    background-position: -1px -690px;
+    background-position: -15px -690px;
 }
 .footer-documents
 {
@@ -1315,7 +1328,7 @@ body > input[type='radio']
     content: '';
 
     background: url(../img/sprite.png) no-repeat;
-    background-position: -4px -735px;
+    background-position: -18px -735px;
 }
 .footer-documents-left
 {

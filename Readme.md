@@ -1,7 +1,7 @@
-# Личный проект «Глейси»
+﻿# Личный проект «Глейси»
 
-* Студент: [Maxim Vavilkin](https://up.htmlacademy.ru/htmlcss/16/user/218942).
-* Наставник: `Неизвестно`.
+* Студент: [Maxim Vavilkin](https://up.htmlacademy.ru/htmlcss/15/user/218942).
+* Наставник: [Олег Петров](https://htmlacademy.ru/profile/fyvfyv).
 
 ---
 
